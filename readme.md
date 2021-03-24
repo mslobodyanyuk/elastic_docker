@@ -30,13 +30,13 @@ For Deploy on Docker you must have the structure folders and files.
 SCHEMA:
 
 /var/www/LARAVEL/Elasticsearch/elastic_docker.loc/
-												  |web/
-												  |    Dockerfile     - file for create an image with php7.2-apache version
-												  |.env               - file with paths environment variables
-												  |docker-compose.yml - file with managing images services and their settings
-												  |databases/         - folder that consist database locally
- 												  |elastic_amitavroy/ - folder with a project which appeared after cloning from github
-
+                                                  |web/					
+                                                  |    Dockerfile     - file for create an image with php7.2-apache version
+                                                  |.env               - file with paths environment variables
+                                                  |docker-compose.yml - file with managing images services and their settings
+                                                  |databases/         - folder that consist database locally
+                                                  |elastic_amitavroy/ - folder with a project which appeared after cloning from github                                                  
+                                                  
 ---
 
 * ***Dockerfile***
@@ -170,7 +170,7 @@ Configure the `.env` file of the Laravel project:
 DB_HOST = db
 DB_DATABASE = elastic_amitavroy
 DB_USERNAME = root
-DB_PASSWORD = root
+DB_PASSWORD = your_password
 ```
 
 Return to the `"container" terminal`:	
@@ -330,7 +330,7 @@ _"proc_open(): fork failed - Cannot allocate memory"_
 	
 <https://www.nicesnippets.com/blog/proc-open-fork-failed-cannot-allocate-memory-laravel-ubuntu>
 
-####Useful links:
+#### Useful links:
 
 ["Deploy on Docker( Ubuntu )" - Actions in README.MD]( https://github.com/mslobodyanyuk/KeyUA-test )
 
