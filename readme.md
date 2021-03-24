@@ -30,6 +30,7 @@ For Deploy on Docker you must have the structure folders and files.
 SCHEMA:
 
 /var/www/LARAVEL/Elasticsearch/elastic_docker.loc/
+
                                                   |web/					
                                                   |    Dockerfile     - file for create an image with php7.2-apache version
                                                   |.env               - file with paths environment variables
